@@ -1,0 +1,7 @@
+<div class="container">
+<h2> <%= @result[:win] ? 'Congratulations' : 'Sorry, play again' %> <h2>
+<p> <%= @result[:message] %></p>
+<p> <%= @result[:score] %> points</p>
+
+<%= link_to 'Play again!', new_path  %>
+</div>
